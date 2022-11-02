@@ -27,11 +27,12 @@ so they don't go without buying. That means that my model needs to have a high r
 #### **Situation:** You work on a classification algorithm, one of the dataset attributes has a very high cardinality Would this be a problem to have it in your dataset ?
 What problem could keep them in your algorithm? and how do you act ?	
 
-**Accuracy**: how many cases you got right (TP+TN) out of the total number of cases (TP+FP+FN+TN).
-**Precision**: how many positives there actually are (TP) among the identified positives (TP+FP).
-**Recall (aka Sensitivity)**: how many positives you have found (TP) out of all those actually positive (TP+FN).
-**Specificity**: how many you have identified as healthy (negative) out of those actually healthy (TN+FP).
-With this in mind, we should be cautious when choosing a metric to optimise in order to calibrate our test correctly.
+**Accuracy**: how many cases you got right (TP+TN) out of the total number of cases (TP+FP+FN+TN).  
+**Precision**: how many positives there actually are (TP) among the identified positives (TP+FP).  
+**Recall (aka Sensitivity)**: how many positives you have found (TP) out of all those actually positive (TP+FN).  
+**Specificity**: how many you have identified as healthy (negative) out of those actually healthy (TN+FP).  
+With this in mind, we should be cautious when choosing a metric to optimise in order to calibrate our test correctly.  
+
 
 Do we want to make sure we don't miss any unidentified patients? `Recall`.
 Do we want overall certainty, no matter which way you go wrong? `Accuracy`.
@@ -59,6 +60,14 @@ v1 = [2,2,1,1,0,0,0,0]
 
 
 #### 7) What is know as loss in ML ?  
-The difference between predicted and actual results
+The difference between predicted and actual results. We would be interested to take the model with less loss function.
 
-  
+#### 8) EDA. What advantages do you see to a visualisation of data in EDA ? why should it be a good idea ? 
+
+ - If we have a classification problem, it may be a good idea to visualise the data because if the data is completely randomly distributed (white noise) it will not be possible to do any classification. If, on the other hand, when we do our visualisation we see that there are classes that are clearly differentiated, then it is possible that our ML algorithm will also be able to differentiate the classes.
+ 
+ - Purely informative, the best example would be Anscombe´s Quartet where all the data have the same metrics but are totally different datasts but with the same metrics.
+
+
+
+
