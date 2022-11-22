@@ -47,7 +47,7 @@ The vocabulary then is {"tea", "is", "life", "love", "healthy", "calming", "and"
 v1 = [2,2,1,1,0,0,0,0]
 
 
-#### 5) Can you give an example of a qualitative Feature nominal and ordinal ? 
+#### 5) Can you give an example of a qualitative Feature nominal and ordinal ?
 
 
  Nominal:  Gender, country, fruit .. ( they do not really have a oder)
@@ -59,8 +59,31 @@ v1 = [2,2,1,1,0,0,0,0]
   continuous: distance in km os some travel, or weight of someone.
 
 
-#### 7) What is know as loss in ML ?  
+#### 7) What is know as loss in ML ? 
 The difference between predicted and actual results. We would be interested to take the model with less loss function.
+
+#### What is "Regularization" in Machine Learning ?
+
+Regularization in ML refers to techniques that are used to calibrate ml models in order to minimize the adjusted loss function and prevent overfitting or underfitting.
+
+
+#### Whare are tin linear Models in ML ?
+
+Linear models are the models taht make prediction usign  linear funcion, a linear function is just a function that represent a straight line on the coordinate plane.
+
+#### Which linear models do you know ?
+
+Regresion:
+   linear regression.
+  
+Classification:
+    Logistic regression.
+	SVM
+
+#### Why Logistic regression is consider as linear model when it uses a sigmoid function, which is not linear. ? 
+
+ --> To Document
+
 
 #### 8) EDA. What advantages do you see to a visualisation of data in EDA ? why should it be a good idea ? 
 
