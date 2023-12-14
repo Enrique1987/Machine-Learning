@@ -37,13 +37,13 @@ The lower the sum of residuals the better our prediction line is.
 
 Linear regression is distinguished by its assumption of a linear relationship between a dependent variable and one or more independent variables, using a straight line to model this connection. Unlike more complex models, it does not account for non-linear relationships and primarily focuses on predicting continuous outcomes, setting it apart from other models that may handle complex patterns or categorical outputs.
 
-![Description of Image](img/04_07_02_Linear_Regression.png)
+![Description of Image](img/04_07_02_Linear_Regression.PNG)
 
 ### Multiple Regression
 
  Is a statistical technique that models the relationship between a single dependent variable and two or more independent variables. It extends the concept of linear regression by incorporating multiple predictors, allowing for more complex analysis of how various factors simultaneously affect the outcome.
 
-![Description of Image](img/04_07_03_Multiple_Regression.png)
+![Description of Image](img/04_07_03_Multiple_Regression.PNG)
 
 ### Linear Models for t-test and ANOVA
 
